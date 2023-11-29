@@ -1,10 +1,10 @@
 # mastermind
-# Mastermind is a pattern-guessing game that was first coded for a computer in the 1960s. For more history
-# on the game and discussion of the rules see https://en.wikipedia.org/wiki/Mastermind_(board_game). The
-# idea of Mastermind is that the computer creates a fixed sequence of symbols that must be guessed within
-# a certain number of turns by the player. In our version, the following rules will be used:
+''' Mastermind is a pattern-guessing game that was first coded for a computer in the 1960s. For more history
+     on the game and discussion of the rules see https://en.wikipedia.org/wiki/Mastermind_(board_game). The
+     idea of Mastermind is that the computer creates a fixed sequence of symbols that must be guessed within
+     a certain number of turns by the player. In our version, the following rules will be used:
 
-''''1. The computer creates a random sequence of 4 values selected from 6 possible values: 1, 2, 3, 4, 5, 6.
+    1. The computer creates a random sequence of 4 values selected from 6 possible values: 1, 2, 3, 4, 5, 6.
     2. The player has 12 turns to guess the correct sequence.
     3. Each turn consists of the player guessing a 4-value sequence, e.g. “1234”. If the guess does not contain exactly 
        4 values in the range of 1-6, the user must be prompted to re-enter the guess.
